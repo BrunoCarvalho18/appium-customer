@@ -2,7 +2,7 @@
 #encoding UTF-8
 
 @geral
-Funcionalidade: Vistar tela home
+Funcionalidade: Visitar tela home
 
        @visitar
        Cenario: Visitar tela home

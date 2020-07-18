@@ -6,7 +6,6 @@ import java.net.URL;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.android.AndroidDriver;
 
@@ -49,7 +48,6 @@ public class Driver {
         return wait;
     }
     
-   
 	public static AndroidDriver<?> encerrarDriver() {
 		if (driver!= null) {
 			driver.quit();
